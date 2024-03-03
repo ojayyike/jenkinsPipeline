@@ -17,5 +17,10 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+        stage('Close App') {
+            steps {
+                echo 'Exiting....'
+            }
+        }
     }
 }
