@@ -3,11 +3,6 @@ pipeline {
     
 
     stages {
-        stage('Show environment') {
-            steps {
-               sh 'node --version'
-            }
-        }
         stage('Build') {
             steps {
                 echo 'Building..'
