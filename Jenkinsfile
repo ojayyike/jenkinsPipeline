@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Show environment') {
             steps {
-               sh "node --version"
+               sh 'node --version'
             }
         }
         stage('Build') {
