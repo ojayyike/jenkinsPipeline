@@ -1,8 +1,6 @@
 pipeline {
-    agent {
-        // docker { image 'node:20.11.1-alpine3.19' }
-        any
-    }
+    agent any
+    
 
     stages {
         stage('Show environment') {
