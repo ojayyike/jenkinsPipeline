@@ -23,4 +23,7 @@ pipeline {
             }
         }
     }
+    triggers {
+        pollSCM('') //Empty quotes tells it to build on a push
+    }
 }
