@@ -4,9 +4,9 @@ pipeline {
 
     stages {
         stage('Build') {
-            // steps {
-            //     echo 'Building..'
-            // }
+            steps {
+                echo 'Building..'
+            }
              // stage('Build') {
             // agent {
             //     docker {
