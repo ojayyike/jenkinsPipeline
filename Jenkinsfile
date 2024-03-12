@@ -17,9 +17,9 @@ pipeline {
             //         reuseNode true
             //     }
             // }
-            steps {
-                sh 'gradle --version'
-            }
+            // steps {
+            //     sh 'gradle --version'
+            // }
         }
         stage('Test') {
             steps {
